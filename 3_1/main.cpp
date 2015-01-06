@@ -16,6 +16,8 @@ int main()
 	ttree *x = NULL;
 	create(n, tree);
 
+    //Обход в ширину
+    //http://algolist.manual.ru/ds/walk.php
     queue<ttree*> q;
 
     q.push(tree);
