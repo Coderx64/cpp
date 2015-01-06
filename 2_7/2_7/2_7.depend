@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1396530910 source:d:\smirnov\coding\2_7\main.cpp
+	<iostream>
+	<fstream>
+	<listint.h>
+	<queueint.h>
+	<stackint.h>
+	<climits>
+
+1396510931 source:d:\smirnov\coding\2_7\stackint.cpp
+	<stdlib.h>
+	<stdio.h>
+
+1396516012 source:d:\smirnov\coding\2_7\queueint.h
+	<stdlib.h>
+	<stdio.h>
+
+1396512029 source:d:\smirnov\coding\2_7\stackint.h
+	<stdlib.h>
+	<stdio.h>
+
+1396521501 source:d:\smirnov\coding\2_7\list.h
+	<stdlib.h>
+	<stdio.h>
+
+1396521501 source:d:\smirnov\coding\2_7\listint.h
+	<stdlib.h>
+	<stdio.h>
+
+1396521501 d:\smirnov\coding\2_7\\listint.h
+	<stdlib.h>
+	<stdio.h>
+
+1396516012 d:\smirnov\coding\2_7\\queueint.h
+	<stdlib.h>
+	<stdio.h>
+
+1396512029 d:\smirnov\coding\2_7\\stackint.h
+	<stdlib.h>
+	<stdio.h>
+
+1396798654 source:c:\users\coderx64\dropbox\смхбеп\timofeeva\2_7\2_7\main.cpp
+	<iostream>
+	<fstream>
+	<listint.h>
+	<queueint.h>
+	<stackint.h>
+
+1396798337 c:\users\coderx64\dropbox\смхбеп\timofeeva\2_7\2_7\\listint.h
+	<stdlib.h>
+	<stdio.h>
+
+1396787065 c:\users\coderx64\dropbox\смхбеп\timofeeva\2_7\2_7\\queueint.h
+	<stdlib.h>
+	<stdio.h>
+
+1396786863 c:\users\coderx64\dropbox\смхбеп\timofeeva\2_7\2_7\\stackint.h
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
