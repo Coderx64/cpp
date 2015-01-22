@@ -1,41 +1,36 @@
 #include <iostream>
+#include <cstdlib>
 #include "tree.h"
 #include <queue>
 #include <fstream>
-#include <iostream>
+//#include <iostream>
 
 using namespace std;
 
+void print_Tree(ttree* p,int level)
+{
+    if(p)
+    {
+        print_Tree(p->left,level + 1);
+        for(int i = 0;i< level;i++) cout<<"   ";
+        cout << p->info << endl;
+        print_Tree(p->right,level + 1);
+    }
+}
+
 int main()
 {
-    int n = 0;
-    fstream in("input.txt", ios_base::in);
-	fscanf(f, "%d", &n);
-	cout<<n<<endl;
-	ttree *tree = NULL;
-	ttree *x = NULL;
-	create(n, tree);
+    ttree* tree = NULL;
+    FILE *f = fopen("input.txt", "r");
+    int a;
 
-    //Обход в ширину
-    //http://algolist.manual.ru/ds/walk.php
-    queue<ttree*> q;
-
-    q.push(tree);
-
-    while (! q.empty())
-    {
-        x = q.front();
-        q.pop();
-        cout<<x->inf<<endl;
-        if (x->left != NULL)
-        {
-            q.push(x->left);
-        }
-        if (x->right != NULL)
-        {
-            q.push(x->right);
-        }
+    while (!feof(f)){
+        fscanf(f, "%d", &a);
+        tree_insert(&tree, a);
     }
 
+    print_Tree(tree,0);
     return 0;
 }
+
+
