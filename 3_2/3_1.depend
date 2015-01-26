@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1421411581 source:/home/coderx64/Dropbox/–£–ù–ò–í–ï–†/Timofeeva/3_1/main.cpp
+	<iostream>
+	"tree.h"
+	<queue>
+	<fstream>
+
+1421411810 /home/coderx64/Dropbox/–£–ù–ò–í–ï–†/Timofeeva/3_1/tree.h
+	<iostream>
+	<cstdio>
+
+1421957959 source:c:\users\coderx64\dropbox\”Õ»¬≈–\timofeeva\3_1\main.cpp
+	<iostream>
+	<cstdlib>
+	"tree.h"
+	<queue>
+	<fstream>
+
+1421957941 c:\users\coderx64\dropbox\”Õ»¬≈–\timofeeva\3_1\tree.h
+	<iostream>
+	<cstdio>
+
+1422285868 source:c:\users\coderx64\dropbox\”Õ»¬≈–\timofeeva\3_2\main.cpp
+	<iostream>
+	<cstdlib>
+	"tree.h"
+	<queue>
+	<fstream>
+
+1422275888 c:\users\coderx64\dropbox\”Õ»¬≈–\timofeeva\3_2\tree.h
+	<iostream>
+	<cstdio>
+

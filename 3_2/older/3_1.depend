@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1421416121 source:/home/coderx64/Dropbox/УНИВЕР/Timofeeva/3_2/main.cpp
+	<iostream>
+	"tree.h"
+	<queue>
+	<fstream>
+	<iostream>
+
+1421416898 /home/coderx64/Dropbox/УНИВЕР/Timofeeva/3_2/tree.h
+	<iostream>
+	<cstdio>
+	<queue>
+
