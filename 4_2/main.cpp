@@ -32,21 +32,9 @@ int main()
 	int x;
 	scanf("%d", &x);
 
-	/*for (int i = 0; i < edges[x - 1].size(); i++)
+	for (int i = 0; i < edges[x - 1].size(); i++)
 	{
-		printf("%d ", edges[x - 1][i].first);
-	}*/
-
-	for (int i = 0; i < edges.size(); i++)
-	{
-		for (int j = 0; j < edges[i].size(); j++)
-		{
-			if (edges[i][j].first == x)
-			{
-				printf("%d ", i+1);
-				break;
-			}
-		}
+		printf("%d - %d\n", x, edges[x - 1][i].first);
 	}
 
 	return 0;
