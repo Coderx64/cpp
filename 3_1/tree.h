@@ -5,16 +5,14 @@ using namespace std;
 struct ttree
 {
 	int info;
-	ttree *left, *right, *parent;
+	ttree *left, *right;
 };
 //FILE *f = fopen("input.txt", "r");
 
 //добавление
 int  tree_insert(ttree** tree, int info){
         ttree* p = *tree;
-        ttree* t = NULL;
         while(p != NULL){
-                t = p;
                 if(info < p->info) {
                         tree = &p->left;
                         p    = p->left;
@@ -28,7 +26,6 @@ int  tree_insert(ttree** tree, int info){
         if((p = new ttree()) != NULL){
                 p->info   = info;
                 p->left   = p->right = NULL;
-                p->parent = t;
                 *tree     = p;
         }
         return (p != NULL);
